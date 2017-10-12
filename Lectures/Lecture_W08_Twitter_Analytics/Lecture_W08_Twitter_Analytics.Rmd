@@ -58,8 +58,8 @@ Authorize App to use your account, i.e., established handshake between Twitter a
 
 ```{r, message=FALSE, warning=FALSE}
 # you must get the following information from the Twitter App you just created
-my.consumer.key = "fH4IijcQUrwxEQ3mmb6G2gzUc"
-my.consumer.secret = "FxkuV6ePyFaia2LmyxetoH50IxGrQcEYbwnLe3EjVDWsCdPrhJ"
+my.consumer.key = "G2WJCdDhdR9lvav7VMp5Od5IR"
+my.consumer.secret = "GlEJVp0A5XcFIXG79CiiPHP7v0iA5HhBlNQHXyq3LZEi6xtWfw"
 my.access.token = "99989439-wG82y2hMmAmlJ1iIlQgNu0l65ZOKVuVscj4Idm9Xu"
 my.access.token.secret = "QNehvUZOGNNZyqFYDCAP6tlWEHWIBbKIhiqPEKAM2SOoT"
 
