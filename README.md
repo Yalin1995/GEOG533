@@ -17,4 +17,5 @@ Statistics for Geography (GEOG 533)
 1. [Lab 1](https://github.com/giswqs/GEOG533/blob/gh-pages/Labs/lab01/Geog533_lab01_Rscript.R)
 2. [Lab 2](http://wetlands.io/GEOG533/Labs/lab02/Geog533_lab02.nb.html)
 3. [Lab 3](http://wetlands.io/GEOG533/Labs/lab03/Geog533_lab03.nb.html)
+4. [Lab 4](http://wetlands.io/GEOG533/Labs/lab04/Geog533_lab04.nb.html)
 
