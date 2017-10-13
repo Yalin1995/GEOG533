@@ -1,0 +1,152 @@
+---
+title: "Geog 533 Midterm Exam"
+author: "Your name"
+output: 
+  html_notebook:
+    toc: TRUE
+    toc_float: TRUE
+---
+
+## What to submit:
+An **R notebook/html document** that contains the script/output for each question.Use the provided **Geog533_midterm_template.Rmd** to complete your answers and generate the html document. File name convention for submissions: lastname_firstname_midterm.zip. You have 60 minutes (8:30-9:30 am) to complete the exam. There will be a 10% penalty per 10 minutes for late submissions.  
+
+## Question 1 (20 pt.)
+The **iris** data set in the **datasets** package contains 150 cases (rows) and 5 variables (columns). 
+
+### Question 1a
+Randomly select half of the cases as training dataset and the remaining half as test dataset. 
+```{r, message=FALSE, warning=FALSE}
+
+```
+
+### Question 1b
+Find out the number of each species (*setosa, versicolor, and virginica*) in the training and test datasets, respectively. 
+```{r}
+
+```
+
+## Question 2 (20 pt.)
+Assume that the probabilities of boy and girl births are **0.505** and **0.495**, respectively. 
+
+### Question 2a
+What’s the probability of having exactly 50 boys out of 100 births? **(X = 50)**
+```{r}
+
+```
+
+
+### Question 2b
+What’s the probability of having more than 60 boys out of 100 births? **(X > 60)**
+```{r}
+
+```
+
+
+
+### Question 2c
+What’s the probability of having between 40 and 60 boys out of 100 births? **(40 < X ≤ 60)**
+```{r}
+
+```
+
+
+### Question 2d
+Plot the density function of the number of boy births out of 100. 
+```{r}
+
+```
+
+
+
+## Question 3 (20 pt.)
+If cars arrive randomly at a traffic light following posission distribution at the rate of five every ten seconds. 
+
+### Question 3a
+What the probability that exactly 30 cars arrive in the next minute (60 seconds)? (X=30)
+```{r}
+
+```
+
+
+### Question 3b
+What’s the probability that more than 40 cars arrive in the next minute (60 seconds)? (X>40)
+```{r}
+
+```
+
+
+### Question 3c
+What’s the probability that between 20 and 40 cars arrive in the next minute (60 seconds)? (20<X≤40)
+```{r}
+
+```
+
+
+### Question 3d
+Plot the density function of 0-100 cars arriving in the next minute (60 seconds).
+```{r}
+
+```
+
+
+
+## Question 4 (20 pt.)
+The number of customers at a bank each day is found to be normally distributed with mean µ = 250 and standard deviation σ=80. 
+
+### Question 4a
+What fraction of days will have more than 300 customers? (X>300)
+```{r}
+
+```
+
+
+### Question 4b
+What number of customers will be exceeded 10% of the time?
+```{r}
+
+```
+
+
+### Question 4c
+What fraction of days will have between 200 and 300 customers? (200 < X≤ 300)
+```{r}
+
+```
+
+
+### Question 4d
+Plot the density function and create the shaded area between 200 and 300 customers.
+```{r}
+
+```
+
+
+## Question 5 (20 pt.)
+The average time between floods in Binghamton is found to be 4.3 year. Assuming that the distribution of times between floods is exponential. (20 pt.)
+
+### Question 5a
+What is the likelihood that the time until the next flood will be shorter than one year?
+```{r}
+
+```
+
+
+### Question 5b
+What is the likelihood that the time until the next flood will be longer than three years? 
+```{r}
+
+```
+
+
+### Question 5c
+What is the likelihood that the time until the next flood is between four and seven years?
+```{r}
+
+```
+
+
+### Question 5d
+What is the likelihood that time until the next flood is greater than seven years, given that it is greater than four years? 
+```{r}
+
+```

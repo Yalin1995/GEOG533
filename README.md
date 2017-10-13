@@ -18,5 +18,6 @@ Statistics for Geography (GEOG 533)
 2. [Lab 2](http://wetlands.io/GEOG533/Labs/lab02/Geog533_lab02.nb.html)
 3. [Lab 3](http://wetlands.io/GEOG533/Labs/lab03/Geog533_lab03.nb.html)
 4. [Lab 4](http://wetlands.io/GEOG533/Labs/lab04/Geog533_lab04.nb.html)
+5. [Midterm](http://wetlands.io/GEOG533/Labs/midterm/Geog533_midterm_solutions.nb.html)
 
 
