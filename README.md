@@ -11,6 +11,7 @@ Statistics for Geography (GEOG 533)
 6. [Lecture_W06_Discrete_Probability](http://wetlands.io/GEOG533/Lectures/Lecture_W06_Discrete_Probability/Lecture_W06_Discrete_Probability.nb.html)
 7. [Lecture_W07_Continuous_Probability](http://wetlands.io/GEOG533/Lectures/Lecture_W07_Continuous_Probability/Lecture_W07_Continuous_Probability.nb.html)
 8. [Lecture_W08_Twitter_Analytics](http://wetlands.io/GEOG533/Lectures/Lecture_W08_Twitter_Analytics/Lecture_W08_Twitter_Analytics_R.nb.html)
+9. [Lecture_W09_Inferential_Statistics](http://wetlands.io/GEOG533/Lectures/Lecture_W09_Inferential_Statistics/Lecture_W09_Inferential_Statistics.nb.html)
 
 ### Labs
 
