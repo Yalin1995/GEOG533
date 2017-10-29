@@ -13,7 +13,7 @@ Statistics for Geography (GEOG 533)
 8. [Lecture_W08_Twitter_Analytics](http://wetlands.io/GEOG533/Lectures/Lecture_W08_Twitter_Analytics/Lecture_W08_Twitter_Analytics_R.nb.html)
 9. [Lecture_W09_Inferential_Statistics](http://wetlands.io/GEOG533/Lectures/Lecture_W09_Inferential_Statistics/Lecture_W09_Inferential_Statistics.nb.html)
 10. [Lecture_W10_ANOVA](http://wetlands.io/GEOG533/Lectures/Lecture_W10_ANOVA/Lecture_W10_ANOVA.nb.html)
-
+11. [Lecture_W11_Correlation](http://wetlands.io/GEOG533/Lectures/Lecture_W11_Correlation/Lecture_W11_Correlation.nb.html)
 
 ### Labs
 
