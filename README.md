@@ -15,6 +15,7 @@ Statistics for Geography (GEOG 533)
 10. [Lecture_W10_ANOVA](http://wetlands.io/GEOG533/Lectures/Lecture_W10_ANOVA/Lecture_W10_ANOVA.nb.html)
 11. [Lecture_W11_Correlation](http://wetlands.io/GEOG533/Lectures/Lecture_W11_Correlation/Lecture_W11_Correlation.nb.html)
 
+
 ### Labs
 
 1. [Lab 1](https://github.com/giswqs/GEOG533/blob/gh-pages/Labs/lab01/Geog533_lab01_Rscript.R)
@@ -23,4 +24,5 @@ Statistics for Geography (GEOG 533)
 4. [Lab 4](http://wetlands.io/GEOG533/Labs/lab04/Geog533_lab04.nb.html)
 5. [Midterm](http://wetlands.io/GEOG533/Labs/midterm/Geog533_midterm_solutions.nb.html)
 6. [Lab 5](http://wetlands.io/GEOG533/Labs/lab05/Geog533_lab05.nb.html)
+7. [Lab 6](http://wetlands.io/GEOG533/Labs/lab06/lab06-ANOVA.nb.html)
 
