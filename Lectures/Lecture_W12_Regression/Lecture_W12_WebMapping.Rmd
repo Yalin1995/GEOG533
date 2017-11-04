@@ -1,4 +1,11 @@
-# Web Mapping
+---
+title: "Web Mapping"
+author: "Dr. Qiusheng Wu"
+output: 
+  html_notebook: 
+    toc: yes
+    toc_float: yes
+---
 
 ## Useful websites
 
@@ -19,7 +26,7 @@
 
 To install this R package, run this command at your R prompt:
 ```{r, message=FALSE, warning=FALSE}
-if(!require(leaflet)) install.packages("leaflet")
+if(!require(leaflet)) {install.packages("leaflet")}
 ```
 
 Once installed, you can use this package at the R console, within R Markdown documents.
@@ -40,7 +47,7 @@ You create a Leaflet map with these basic steps:
 Here’s a basic example:
 
 ```{r}
-m <- leaflet()
+m <- leaflet(width = "100%")
 m <- addTiles(m)  # Add default OpenStreetMap map tiles
 m <- addMarkers(m, lng=-75.968342, lat=42.089026, popup="Binghamton University")
 m  # Print the map
@@ -50,7 +57,7 @@ m  # Print the map
 ### Pipe operator
 
 ```{r}
-m <- leaflet() %>%
+m <- leaflet(width = "100%") %>%
   addTiles() %>%
   addMarkers(m, lng=-75.968342, lat=42.089026, popup="Binghamton University")
 m
@@ -62,7 +69,7 @@ The easiest way to add tiles is by calling `addTiles()` with no arguments; by de
 
 Alternatively, many popular free third-party basemaps can be added using the `addProviderTiles()` function, which is implemented using the leaflet-providers plugin. See [here](http://leaflet-extras.github.io/leaflet-providers/preview/index.html) for the complete set. 
 ```{r}
-m <- leaflet() %>%
+m <- leaflet(width = "100%") %>%
   addTiles() %>%
   addProviderTiles(provider = "Esri.WorldStreetMap",group = "World StreetMap") %>%
   addProviderTiles(provider = "Esri.WorldImagery",group = "World Imagery") %>%
@@ -88,7 +95,7 @@ library(knitr)
 df <- quakes 
 kable(head(df,n = 10)) # display the first 10 records
 
-leaflet(data = df) %>% 
+leaflet(data = df, width = "100%") %>% 
   addTiles() %>%
   addMarkers(~long, ~lat,popup = ~as.character(mag))
 ```
@@ -97,7 +104,7 @@ leaflet(data = df) %>%
 
 ```{r}
 df <- quakes 
-leaflet(data = df) %>% 
+leaflet(data = df, width = "100%") %>% 
   addTiles() %>%
   addMarkers(~long, ~lat,popup = ~as.character(mag),clusterOptions = markerClusterOptions())
   
@@ -112,7 +119,7 @@ Dygraphs provides rich facilities for charting time-series data in R and include
 
 ### Installation
 ```{r}
-if(!require(dygraphs)) install.packages("dygraphs")
+if(!require(dygraphs)) {install.packages("dygraphs")}
 ```
 
 ### Basic Usage
@@ -122,7 +129,7 @@ library(dygraphs)
 library(knitr)
 df <- nhtemp
 kable(head(df,n = 10)) ## display the first 10 records
-dygraph(nhtemp, main = "New Haven Temperatures") %>% 
+dygraph(nhtemp, main = "New Haven Temperatures", width = "100%") %>% 
   dyRangeSelector(dateWindow = c("1920-01-01", "1960-01-01"))
 
 ```

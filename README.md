@@ -14,7 +14,7 @@ Statistics for Geography (GEOG 533)
 9. [Lecture_W09_Inferential_Statistics](http://wetlands.io/GEOG533/Lectures/Lecture_W09_Inferential_Statistics/Lecture_W09_Inferential_Statistics.nb.html)
 10. [Lecture_W10_ANOVA](http://wetlands.io/GEOG533/Lectures/Lecture_W10_ANOVA/Lecture_W10_ANOVA.nb.html)
 11. [Lecture_W11_Correlation](http://wetlands.io/GEOG533/Lectures/Lecture_W11_Correlation/Lecture_W11_Correlation.nb.html)
-12. [Lecture_W12_Regression](http://wetlands.io/GEOG533/Lectures/Lecture_W12_Regression/Lecture_W12_Regression.nb.html)
+12. [Lecture_W12_Regression](http://wetlands.io/GEOG533/Lectures/Lecture_W12_Regression/Lecture_W12_Regression.nb.html) / [Web Mapping](http://wetlands.io/GEOG533/Lectures/Lecture_W12_Regression/Lecture_W12_WebMapping.nb.html)
 
 ### Labs
 
