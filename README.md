@@ -25,4 +25,4 @@ Statistics for Geography (GEOG 533)
 5. [Midterm](http://wetlands.io/GEOG533/Labs/midterm/Geog533_midterm_solutions.nb.html)
 6. [Lab 5](http://wetlands.io/GEOG533/Labs/lab05/Geog533_lab05.nb.html)
 7. [Lab 6](http://wetlands.io/GEOG533/Labs/lab06/lab06-ANOVA.nb.html)
-
+8. [Lab 7](http://wetlands.io/GEOG533/Labs/lab07/lab07-Correlation.nb.html)

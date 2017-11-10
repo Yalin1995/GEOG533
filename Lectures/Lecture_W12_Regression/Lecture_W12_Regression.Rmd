@@ -94,3 +94,65 @@ abline(m,col="red")
 
 ```
 
+
+## Example 3
+
+```{r}
+x <- c(65,35,30,44,80,77,32,39,44,77)
+y <- c(120,68,35,60,100,91,44,71,89,113)
+
+library(knitr)
+kable(cbind(y,x))
+
+n <- length(x)
+mx <- mean(x)
+my <- mean(y)
+sx <- sd(x)
+sy <- sd(y)
+
+numerator <- sum((x-mx)*(y-my))
+numerator
+denominator <- sum((x-mx)^2)
+denominator
+
+slope <- numerator / denominator
+slope
+intercept <- my - slope * mx
+intercept
+
+m <- lm(y~x)
+summary(m)
+anova(m)
+
+MSS <- sum((fitted(m) - my)^2)
+MSS
+RSS <- sum((y - fitted(m))^2)
+RSS
+TSS <- RSS + MSS
+TSS
+
+df1 <- 1
+df2 <- n-2 
+df3 <- df1+df2
+
+msq1 <- MSS / df1
+msq2 <- RSS / df2
+F.value <- msq1 / msq2 
+F.value
+F.critical <- qf(0.95,df1 = 1,df2 = n-2)
+F.critical
+rsq <- MSS / TSS
+rsq
+if(F.value>F.critical){
+  print("We reject the null hypothesis")
+} else {
+  print("We cannot reject the null hypothesis")
+}
+
+```
+
+|          | Sum of squares |  df   | Mean square     |   F                |
+|----------|----------------|-------|-----------------|--------------------|
+|Regression|`r round(MSS,2)`|`r df1`|`r round(msq1,2)`|`r round(F.value,2)`|
+|Residual  |`r round(RSS,2)`|`r df2`|`r round(msq2,2)`|                    |
+|Total     |`r round(TSS,2)`|`r df3`|                 |                    |
