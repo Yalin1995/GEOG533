@@ -16,6 +16,7 @@ Statistics for Geography (GEOG 533)
 11. [Lecture_W11_Correlation](http://wetlands.io/GEOG533/Lectures/Lecture_W11_Correlation/Lecture_W11_Correlation.nb.html)
 12. [Lecture_W12_Regression](http://wetlands.io/GEOG533/Lectures/Lecture_W12_Regression/Lecture_W12_Regression.nb.html) / [Web Mapping](http://wetlands.io/GEOG533/Lectures/Lecture_W12_Regression/Lecture_W12_WebMapping.nb.html)
 13. [Lecture_W13_Multiple_Correlation](http://wetlands.io/GEOG533/Lectures/Lecture_W13_MultipleRegression/Lecture_W13_MultipleRegression.nb.html)
+14. [Lecture_W14_Spatial_Data](http://wetlands.io/GEOG533/Lectures/Lecture_W14_SpatialData/Lecture_W14_SpatialData.nb.html)
 
 ### Labs
 
