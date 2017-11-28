@@ -18,6 +18,7 @@ Statistics for Geography (GEOG 533)
 13. [Lecture_W13_Multiple_Correlation](http://wetlands.io/GEOG533/Lectures/Lecture_W13_MultipleRegression/Lecture_W13_MultipleRegression.nb.html)
 14. [Lecture_W14_Spatial_Data](http://wetlands.io/GEOG533/Lectures/Lecture_W14_SpatialData/Lecture_W14_SpatialData.nb.html)
 
+
 ### Labs
 
 1. [Lab 1](https://github.com/giswqs/GEOG533/blob/gh-pages/Labs/lab01/Geog533_lab01_Rscript.R)
@@ -29,3 +30,4 @@ Statistics for Geography (GEOG 533)
 7. [Lab 6](http://wetlands.io/GEOG533/Labs/lab06/lab06-ANOVA.nb.html)
 8. [Lab 7](http://wetlands.io/GEOG533/Labs/lab07/lab07-Correlation.nb.html)
 9. [Lab 8](http://wetlands.io/GEOG533/Labs/lab08/lab08-Regression.nb.html)
+10. [Lab 9](http://wetlands.io/GEOG533/Labs/lab09/lab09-MultipleRegression.nb.html)
